@@ -13,14 +13,14 @@
 __________________________________________________________________________________________________
 ### the Project consists of Two MCU (ATMega32):
 
-####First Controller 'Interface':
+First Controller 'Interface':
 - Connecting with EEPROM by I2C for adding Users Passwords.
 - Connecting with LCD & Keypad for interfacing with admin or user.
 - Connecting with Bluetooth Module using USART Protocol “Interrupt" for interfacing with admin or user.
 - Connecting with Other Controller using SPI Protocol as a master "Polling".
 
 
-####Second Controller 'Control’:
+Second Controller 'Control’:
 - Connecting with Other Controller using SPI Protocol as a slave "Interrupt".
 - Connecting with Electrical Devices at home.
 - Controlling in Servo with TIMER_1 Mode (14 .
@@ -30,7 +30,7 @@ ________________________________________________________________________________
 		• if T > 25 >> Firefighting system "Pump & Bazzer & LED Alarm" ON 
 		• if T > 25 >> Firefighting system "Pump & Bazzer & LED Alarm" OFF
 
-#### Simulation Video Click here :
+Simulation Video Click here :
 ---
-![image](https://github.com/AhmedOSAA/Smart_Home_Project/blob/main/Smart_Home_Project_Schematic.jpg)(https://github.com/AhmedOSAA/Smart_Home_Project/blob/main/Smart_Home_Simu_Video.mp4)
+[![image](https://github.com/AhmedOSAA/Smart_Home_Project/blob/main/Smart_Home_Project_Schematic.jpg)](https://github.com/AhmedOSAA/Smart_Home_Project/blob/main/Smart_Home_Simu_Video.mp4)
 ---
