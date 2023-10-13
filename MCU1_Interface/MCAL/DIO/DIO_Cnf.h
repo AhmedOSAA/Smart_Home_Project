@@ -1,0 +1,19 @@
+/*
+ * DIO_Cnf.h
+ *
+ *  Created on: Sep 8, 2023
+ *      Author: weza
+ */
+
+#ifndef MCAL_DIO_DIO_CNF_H_
+#define MCAL_DIO_DIO_CNF_H_
+
+#define OUTPUT_HIGH 4
+#define OUTPUT_LOW  3
+#define INPUT_PULLUP 0
+#define INPUT_FLOATING 1
+
+//U8 MCAL_DIO_INIT[]={OUTPUT_HIGH,OUTPUT_HIGH,OUTPUT_HIGH,OUTPUT_HIGH,OUTPUT_HIGH,OUTPUT_HIGH,OUTPUT_HIGH};
+
+
+#endif /* MCAL_DIO_DIO_CNF_H_ */
